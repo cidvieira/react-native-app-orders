@@ -16,7 +16,7 @@ import { LinkButton } from "@/components/link-button";
 import { Input } from "@/components/input";
 import { Button } from "@/components/button";
 
-const PHONE_NUMBER = "5511995125767"
+const PHONE_NUMBER = "5511999999999"
 
 export default function Cart() {
     const [address, setAddress] = useState("")
