@@ -2,15 +2,12 @@
   "name": "rn-app-orders",
   "main": "expo-router/entry",
   "version": "1.0.0",
-  "homepage": "https://cidvieira.github.io/react-native-app-orders",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "test": "jest --watchAll",
-    "predeploy": "npx expo export --platform web && node fix-web-build.js",
-    "deploy": "gh-pages -d dist"
+    "test": "jest --watchAll"
   },
   "jest": {
     "preset": "jest-expo"
@@ -42,11 +39,9 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@types/react": "~19.1.10",
-    "gh-pages": "^6.3.0",
     "jest": "^29.2.1",
     "jest-expo": "~54.0.17",
     "react-test-renderer": "^19.2.4",
-    "replace-in-file": "^8.4.0",
     "tailwindcss": "^3.3.2",
     "typescript": "~5.9.2"
   },
